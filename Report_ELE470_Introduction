@@ -65,7 +65,7 @@ The second one is the interface after typing a name in the textfield.
 
 
 \section{Conclusion}
-The storyboard is very useful to construct interfaces and to separate GUI and domain layer. Objective-C looks similar to C++ concerning the gestion of memory but its semantic looks more complex. 
+The storyboard is very useful to construct the interface of our application. It is really intuitive to use. Objective-C looks similar to C++ concerning the gestion of memory but its semantic looks more complex. 
  
 
 \end{document}
