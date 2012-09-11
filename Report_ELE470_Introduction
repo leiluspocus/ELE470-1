@@ -1,0 +1,33 @@
+Introduction
+---------------------------------
+The purpose of this first homework is to get used to the XCode environment. The version of XCode used is the 4.3.1., the tests were launched on the iOs Simulator runned on a MacBook Air (Lion). 
+The but of the application is to enable the user to enter his name, and changing the value of an empty label according to the value he entered in the textfield.
+
+Methods
+----------------------------------
+Using the library found on the website of Apple Developper and the textbook "Beginning iOS 5 Development", I developped a simple-view application with some graphics elements.
+The application is composed of 6 main elements:
+- A label called "Hello world"
+- A text-field 
+- A button
+- An empty label at the launch of the application
+- An UImageView with the logo of the URI
+
+In order to see how does Objective C look like, event handlers were also developped. When the user click on the button, the empty text-field is set with a text "<Name Entred>  I know you clicked!".
+There is also an other event on the keyboard: when the user press the "Done" button, the keyboard closes. It is not an event that is surcharged by defaut.
+
+All the events are surcharged in the view controller. The methods are first declared in the head file (.h files) and the implementations are in the source code file (.m files).
+
+// Screenshots
+
+Conclusion
+----------------------------------
+The storyboard is very useful to construct interfaces and to separate GUI and domain layer. Objective-C looks similar to C++ with the gestion of memory but its semantic looks more complex. 
+
+Sources
+-----------------------------------
+http://developer.apple.com/library/ios/#DOCUMENTATION/iPhone/Conceptual/iPhone101/Articles/01_CreatingProject.html
+
+
+
+Autorelease pool >> ARC provides automatic object-lifetime management for your app, ensuring that objects remain in existence for as long as they're needed and no longer.

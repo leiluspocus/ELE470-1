@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *valueEntered;
+@property (weak, nonatomic) IBOutlet UILabel *msg;
+- (IBAction)onClickDoneEvent:(id)sender;
+- (IBAction)closeKeyboard:(id)sender;
 
+- (IBAction)onClickHereEvent:(id)sender;
 @end

@@ -13,6 +13,8 @@
 @end
 
 @implementation ViewController
+@synthesize valueEntered;
+@synthesize msg;
 
 - (void)viewDidLoad
 {
@@ -22,6 +24,8 @@
 
 - (void)viewDidUnload
 {
+    [self setValueEntered:nil];
+    [self setMsg:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -31,4 +35,16 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)onClickDoneEvent:(id)sender {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)closeKeyboard:(id)sender {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)onClickHereEvent:(id)sender {
+    NSMutableString *res =[NSMutableString stringWithFormat: @"%@ I know you clicked here !", valueEntered.text]; 
+    msg.text = res;    
+}
 @end

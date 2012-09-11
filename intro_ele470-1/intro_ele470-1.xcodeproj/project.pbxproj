@@ -20,6 +20,7 @@
 		30F7B8ED15FEFC3700811B1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F7B8CE15FEFC3700811B1A /* Foundation.framework */; };
 		30F7B8F515FEFC3700811B1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30F7B8F315FEFC3700811B1A /* InfoPlist.strings */; };
 		30F7B8F815FEFC3700811B1A /* intro_ele470_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B8F715FEFC3700811B1A /* intro_ele470_1Tests.m */; };
+		30F7B90215FEFC9300811B1A /* URI_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 30F7B90115FEFC9300811B1A /* URI_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		30F7B8CC15FEFC3700811B1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30F7B8CE15FEFC3700811B1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		30F7B8D015FEFC3700811B1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		30F7B8D415FEFC3700811B1A /* intro_ele470-1-Info.plist */ = {isa = PBXFileReference; path = "intro_ele470-1-Info.plist"; sourceTree = "<group>"; };
+		30F7B8D415FEFC3700811B1A /* intro_ele470-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "intro_ele470-1-Info.plist"; sourceTree = "<group>"; };
 		30F7B8D615FEFC3700811B1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30F7B8D815FEFC3700811B1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		30F7B8DA15FEFC3700811B1A /* intro_ele470-1-Prefix.pch */ = {isa = PBXFileReference; path = "intro_ele470-1-Prefix.pch"; sourceTree = "<group>"; };
-		30F7B8DB15FEFC3700811B1A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		30F7B8DA15FEFC3700811B1A /* intro_ele470-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "intro_ele470-1-Prefix.pch"; sourceTree = "<group>"; };
+		30F7B8DB15FEFC3700811B1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30F7B8DC15FEFC3700811B1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		30F7B8DF15FEFC3700811B1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		30F7B8E115FEFC3700811B1A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		30F7B8E115FEFC3700811B1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		30F7B8E215FEFC3700811B1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		30F7B8E915FEFC3700811B1A /* intro_ele470-1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "intro_ele470-1Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F7B8EA15FEFC3700811B1A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		30F7B8F215FEFC3700811B1A /* intro_ele470-1Tests-Info.plist */ = {isa = PBXFileReference; path = "intro_ele470-1Tests-Info.plist"; sourceTree = "<group>"; };
+		30F7B8F215FEFC3700811B1A /* intro_ele470-1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "intro_ele470-1Tests-Info.plist"; sourceTree = "<group>"; };
 		30F7B8F415FEFC3700811B1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		30F7B8F615FEFC3700811B1A /* intro_ele470_1Tests.h */ = {isa = PBXFileReference; path = intro_ele470_1Tests.h; sourceTree = "<group>"; };
+		30F7B8F615FEFC3700811B1A /* intro_ele470_1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = intro_ele470_1Tests.h; sourceTree = "<group>"; };
 		30F7B8F715FEFC3700811B1A /* intro_ele470_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = intro_ele470_1Tests.m; sourceTree = "<group>"; };
+		30F7B90115FEFC9300811B1A /* URI_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = URI_Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		30F7B8D215FEFC3700811B1A /* intro_ele470-1 */ = {
 			isa = PBXGroup;
 			children = (
+				30F7B90115FEFC9300811B1A /* URI_Logo.png */,
 				30F7B8DB15FEFC3700811B1A /* AppDelegate.h */,
 				30F7B8DC15FEFC3700811B1A /* AppDelegate.m */,
 				30F7B8DE15FEFC3700811B1A /* MainStoryboard.storyboard */,
@@ -224,6 +227,7 @@
 			files = (
 				30F7B8D715FEFC3700811B1A /* InfoPlist.strings in Resources */,
 				30F7B8E015FEFC3700811B1A /* MainStoryboard.storyboard in Resources */,
+				30F7B90215FEFC9300811B1A /* URI_Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
