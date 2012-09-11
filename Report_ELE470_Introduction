@@ -4,10 +4,11 @@
 \usepackage[francais]{babel}
 \usepackage[french]{varioref}
 \usepackage{layout} 
+\usepackage{listings} 
 \usepackage[comma,authoryear]{natbib}
 \usepackage{graphicx}
 
-\title{ ELE 470 - Mobile Development }
+\title{ ELE 470 - First Application }
 
 \author{ Laïla Atrmouh }
 
@@ -17,13 +18,15 @@
 
 \maketitle  
    
+\rule[0.5ex]{\textwidth}{0.1mm}
+
 \section{Introduction}  
-The purpose of this first homework is to familiarize with the XCode environment. The version of XCode used is the 4.3.1., the tests were launched on the iOs Simulator (iPhone 5.1). \\
-The but of the application is to enable the user to enter his name, and to change the value of a label according to the value he entered in the text-field.
+The purpose of this first homework is to familiarize with the XCode environment. The version of XCode used is the 4.3.1., the application was launched on the iOs Simulator (iPhone 5.1). \\
+The application is a simple \emph{"Hello World"} App. Its aim is to enable the user to enter his name, and to change the value of a label according to the value he entered in the text-field.
 
 \section{Methods}
-Using the library found on the website of Apple Developper and the textbook Beginning iOS 5 Development, I developed a simple-view application with some graphics elements.\\
-The application is composed of 6 main elements:
+Using the documentation found on the website of Apple Developper and the textbook Beginning iOS 5 Development, I developed a simple-view application with some graphics elements.\\
+The application is composed of 5 main elements:
 \begin{itemize}
 \item A label
 \item A text-field 
@@ -32,26 +35,33 @@ The application is composed of 6 main elements:
 \item An UImageView with the logo of the URI
 \end{itemize}
 \hspace{2cm}
-\begin{figure}[!h] %on ouvre l'environnement figure
-\centering
-\includegraphics[width=6cm]{1.png} %ou image.png, .jpeg etc.
-\caption{Interface before typing a name in the textfield} %la légende
-\label{api} %l'étiquette pour faire référence à cette image
-\end{figure} %on ferme l'environnement figure
 
-In order to see how does Objective C look like, event handlers were also developped. When the user click on the button, the empty text-field is set with a text \emph{"Name typed I know you clicked! "} \\
-\begin{figure}[!h] %on ouvre l'environnement figure
-\centering
-\includegraphics[width=6cm]{2.png} %ou image.png, .jpeg etc.
-\caption{Interface after typing a name in the textfield} %la légende
-\label{api} %l'étiquette pour faire référence à cette image
-\end{figure} %on ferme l'environnement figure
- 
+In order to see how does Objective C look like, event handlers were also developped. When the user click on the button, the empty text-field is set with a text \emph{"\underline{Name typed} I know you clicked! "} \\ 
 There is also an other event on the keyboard: when the user press the Done button, the keyboard closes. It is not an event that is surcharged by defaut.\\
-
 All the events are surcharged in the view controller. The methods are first declared in the head file (.h files) and the implementations are in the source code file (.m files). We can see that an instruction is written in this way : \\
-[object methodToCall:(parameters)] \\
-It's definitely a very particular semantic. In object-oriented languages such as Java or C++, we are more used to see object.methodToCall(parameters).
+\begin{lstlisting}
+[object methodToCall:(parameters)]
+\end{lstlisting}
+It is a very particular semantic. In object-oriented languages such as Java or C++, we are more used to see this syntax: object.methodToCall(parameters).
+
+\section{Results}
+At the end, we have a really simple application that have graphics elements and handlers to events. Here are two screenshots of the application.\\
+The first one is the interface before typing a name in the textfield.
+\begin{figure}[!h] %on ouvre l'environnement figure
+\centering
+\includegraphics[width=4cm]{1.jpg} %ou image.png, .jpeg etc.
+\caption{Hello World Application} %la légende
+\label{api} %l'étiquette pour faire référence à cette image
+\end{figure} %on ferme l'environnement figure
+\newpage
+
+The second one is the interface after typing a name in the textfield.
+\begin{figure}[!h] %on ouvre l'environnement figure
+\centering
+\includegraphics[width=5cm]{2.jpg} %ou image.png, .jpeg etc.
+\caption{Hello world Application} %la légende
+\label{api} %l'étiquette pour faire référence à cette image
+\end{figure} %on ferme l'environnement figure
 
 
 \section{Conclusion}

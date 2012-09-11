@@ -29,8 +29,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
                                 <connections>
                                     <action selector="closeKeyboard:" destination="2" eventType="editingDidEndOnExit" id="6f6-Rw-EN0"/>
-                                    <action selector="onClickDoneEvent:" destination="2" eventType="editingDidEndOnExit" id="qJb-67-EWP"/>
-                                    <action selector="onClickHereEvent:" destination="2" eventType="editingDidEnd" id="0Uz-1i-WnN"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rSw-6o-0cM">
@@ -73,6 +71,17 @@
     <resources>
         <image name="URI_Logo.png" width="199" height="199"/>
     </resources>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="closeKeyboard:"/>
+                <relationship kind="action" name="onClickHereEvent:"/>
+                <relationship kind="outlet" name="msg" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="valueEntered" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

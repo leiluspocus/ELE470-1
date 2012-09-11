@@ -10,8 +10,7 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *valueEntered;
-@property (weak, nonatomic) IBOutlet UILabel *msg;
-- (IBAction)onClickDoneEvent:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *msg; 
 - (IBAction)closeKeyboard:(id)sender;
 
 - (IBAction)onClickHereEvent:(id)sender;

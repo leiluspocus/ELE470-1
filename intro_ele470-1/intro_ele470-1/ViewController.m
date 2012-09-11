@@ -35,10 +35,6 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)onClickDoneEvent:(id)sender {
-    [sender resignFirstResponder];
-}
-
 - (IBAction)closeKeyboard:(id)sender {
     [sender resignFirstResponder];
 }
